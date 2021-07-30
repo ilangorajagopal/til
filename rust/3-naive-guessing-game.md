@@ -41,7 +41,7 @@ fn main() {
 
 ## Generating a random number
 
-So rust doesn't have a random number generator apparently. So we pull in a crate that can generate a random number. To do that we
+So rust doesn't have a random number generator, apparently. So we pull in a crate that can generate a random number. To do that we
 add the dependency to the toml file.
 
 ```rust
@@ -63,4 +63,4 @@ fn main() {
 ```
 
 I don't understand this part very clearly. We're "using" `Rng` from `rand` (I think) but using it in the program is different `rand::thread_rng().gen_range(1..101);`.
-I understand the `thread_rng().gen_range(1..101)` but it's part of `rand` and not `Rng`. I'm coming at this from a Javascript developer so I'm very wrong in how I reason about this. Something to read about in detail.
+I understand the `thread_rng().gen_range(1..101)` but it's part of `rand` and not `Rng`. I'm coming at this from a Javascript developer, so I'm very wrong in how I reason about this. Something to read about in detail.
