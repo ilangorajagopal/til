@@ -1,0 +1,11 @@
+# Variables
+---
+- Variables are used to store data (duh)
+- In Rust, they're immutable by default, which means we cannot reassign value to them. It is possible to declare a variable without assigning them a value during declaration but this is not recommended.
+- Rust calls declarations as bindings as they bind a name at the time of creation.
+- We use the `let` keyword to declare a variable
+- By convention, variable names use the snake case — words are separated with an underscore. All letters should be lowercase.
+- To make a variable mutable, we use the `mut` keyword after `let`.
+- We can also declare multiple variables in a single statement with `()`.
+- Variables have scopes — where they can be accessed — local and global. Variables declared within `{}` can only be accessed from within the block. Attempts to access it outside the scope will return an error at compile time. Variables declared outside `{}` can be access from anywhere and are said to have global scope.
+- Local variables can have the same name as a global variable. In such a case, the global variable is said to be shadowed by the local variable or the local variable is said to mask the global variable.

@@ -1,4 +1,4 @@
-## Naive Guessing Game
+# Naive Guessing Game
 
 Well, it's not really a game but this chapter introduces some important concepts.
 
